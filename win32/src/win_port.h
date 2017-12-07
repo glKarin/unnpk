@@ -1,8 +1,9 @@
 #pragma once
 
+#ifndef _WITH_GUN
+
 #include <stddef.h>
 
-#ifndef _WITHOUT_GUN
 #define S_IRGRP 1
 #define S_IXGRP 1
 #define S_IROTH 1
